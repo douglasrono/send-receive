@@ -1,3 +1,2 @@
 # css-animation
-animation with keyframes
-<p> border animation with css</p>
+<p> Creating animation with css3 keyframes</p>

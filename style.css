@@ -5,6 +5,8 @@
 }
 body {
     background-color: rgb(236, 236, 236);
+    display: flex;
+    justify-content: center;
 }
 
 .slide-down {
@@ -54,7 +56,7 @@ body {
         left: 5px;
     }
     to {
-        left: 80px;
+        left: 100px;
         visibility: visible;
     }
 }
@@ -101,10 +103,11 @@ body {
     to {right: 0; visibility: hidden;}
 }
  
-
-
 .container {
-    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 80%;
     height: 400px;
     max-width: 500px;
@@ -122,33 +125,20 @@ body {
     color: rgb(85, 146, 141);
     font-size: 12px;
 }
-
+.market{
+    position: relative;
+    background-color: rgb(227, 205, 205);
+   max-width:400px;
+    height: 200px;
+}
 .send {
     width: 200px;
     height: 50px;
-    margin: 100px auto;
     padding: 1px;
-    background-color: rgb(80, 80, 133);
-    background-color: rgb(85, 146, 141);
+    background-color: rgb(15, 15, 200);
     border: none;
-    border-radius: 7px;
-    -webkit-border-radius: 7px;
-    -moz-border-radius: 7px;
-    -ms-border-radius: 7px;
-    -o-border-radius: 7px;
-    color: white;
     text-align: center;
-    position: relative;
     cursor: pointer;
-    box-shadow: 0 10px 20px rgba(59, 93, 99, 0.3);
-}
-.send:active {
-    box-shadow: 0 5px 5px rgba(59, 93, 99, 0.3);
-}
-.send p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    margin-top: 17px;
 }
 
 .human-wrapper {
@@ -161,9 +151,9 @@ body {
     visibility: hidden;
 }
 .head {
-    width: 10px;
-    height: 10px;
-    background-color: white;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(28, 25, 25);
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -172,29 +162,29 @@ body {
     position: absolute;
 }
 .body {
-    width: 3px;
-    height: 13px;
-    background-color: white;
+    width: 10px;
+    height: 30px;
+    background-color: rgb(223, 19, 19);
     position: absolute;
     left: 3px;
-    top: 11px;
+    top: 21px;
 }
 .hand {
-    width: 10px;
-    height: 2px;
+    width: 20px;
+    height: 8px;
     background-color: white;
     position: absolute;
     left: 3px;
-    top: 12px;
+    top: 22px;
     z-index: 1;
 }
 .package {
-    width: 10px;
-    height: 10px;
-    background-color: burlywood;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(69, 248, 9);
     position: absolute;
     left: 11px;
-    top: 5px;
+    top: 15px;
 }
 
 .send > div:nth-of-type(1) {

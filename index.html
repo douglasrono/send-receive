@@ -3,35 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="app.css">
-    <link rel="stylesheet" href="css/all.css">
-    <title>Send Animation</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Sender / Receiver Simulator</title>
 </head>
 <body>
     <div class="container">
-        <p><strong>SEND ANIMATION</strong> </p>
-
-        <div id="send" class="send">
-            <p id="message" class=" ">SEND</p>
-
-            <div id="character1" class="human-wrapper">
+        <div class="market">
+            <div id="sender" class="human-wrapper">
                 <div class="head"></div>
                 <div class="body"></div>
                 <div id="hand1" class="hand"></div>
                 <div id="package1" class="package"></div>
             </div>
- 
-            <div id="character2" class="human-wrapper">
+            <div id="receiver" class="human-wrapper">
                 <div class="head"></div>
                 <div class="body"></div>
                 <div id="hand2" class="hand"></div>
                 <div id="package2" class="package"></div>
             </div>
-
         </div>
-
+        <div id="send" class="send">
+            <p id="message" class=" ">SEND</p>
+        </div>
     </div>
-
-    <script src="app.js"></script>
+    <script src="./main.js"></script>
 </body>
 </html>
